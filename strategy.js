@@ -13,7 +13,7 @@ function Strategy(options, verify) {
 
     this.name = 'hubspot';
     this._oauth2._useAuthorizationHeaderForGET = true;
-    this._scope = scope
+    this._scope = options.scope
 }
 
 util.inherits(Strategy, OAuth2Strategy);
