@@ -1,0 +1,24 @@
+{
+  "name": "passport-hubspot",
+  "version": "1.0.0",
+  "description": "Passport strategy for authenticating with HubSpot using the OAuth 2.0 API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blendo-app/passport-hubspot.git"
+  },
+  "keywords": [
+    "Hubspot",
+    "Passport",
+    "NodeJs"
+  ],
+  "author": "Ioannis Bekiaris <info@ibekiaris.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blendo-app/passport-hubspot/issues"
+  },
+  "homepage": "https://github.com/blendo-app/passport-hubspot#readme"
+}
