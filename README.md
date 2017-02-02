@@ -8,7 +8,7 @@ Passport strategy for authenticating with HubSpot using the OAuth 2.0 API.
     passport.use(new HubSpotStrategy({
         clientID: HUBSPOT_APP_ID,
         clientSecret: HUBSPOT_APP__SECRET,
-        callbackURL: "http://myapp.dev/hubspot/collback"
+        callbackURL: "http://myapp.dev/hubspot/callback"
       }, function(req, accessToken, refreshToken, profile, done) {
         // Verify callback.
       };
@@ -21,7 +21,7 @@ You can also define [Hubspot Scope](http://developers.hubspot.com/docs/methods/o
     passport.use(new HubSpotStrategy({
         clientID: HUBSPOT_APP_ID,
         clientSecret: HUBSPOT_APP__SECRET,
-        callbackURL: "http://myapp.dev/hubspot/collback"
+        callbackURL: "http://myapp.dev/hubspot/callback"
         scope: [contacts]
       }, function(req, accessToken, refreshToken, profile, done) {
         // Verify callback.
