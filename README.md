@@ -26,7 +26,7 @@ You can also define [Hubspot Scope](http://developers.hubspot.com/docs/methods/o
         clientID: HUBSPOT_APP_ID,
         clientSecret: HUBSPOT_APP__SECRET,
         callbackURL: "http://myapp.dev/hubspot/callback"
-        scope: [contacts]
+        scope: ['contacts', 'content']
       }, function(req, accessToken, refreshToken, profile, done) {
         // Verify callback.
       };
