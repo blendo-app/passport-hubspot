@@ -1,6 +1,10 @@
 # passport-hubspot
 Passport strategy for authenticating with HubSpot using the OAuth 2.0 API.
 
+## Installation
+
+    npm i passport-hubspot-oauth2.0
+
 ## Usage
 
 #### Configure Strategy
