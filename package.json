@@ -1,5 +1,5 @@
 {
-  "name": "passport-hubspot",
+  "name": "passport-hubspot-oauth2.0",
   "version": "1.0.0",
   "dependencies": {
     "passport-oauth2": "1.x.x"
