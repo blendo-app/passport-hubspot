@@ -26,14 +26,15 @@ You can also define [Hubspot Scope](http://developers.hubspot.com/docs/methods/o
         clientID: HUBSPOT_APP_ID,
         clientSecret: HUBSPOT_APP__SECRET,
         callbackURL: "http://myapp.dev/hubspot/callback"
-        scope: ['contacts', 'content']
+        scope: ['contacts', 'content'],
+        optional_scope: ['timeline']
       }, function(req, accessToken, refreshToken, profile, done) {
         // Verify callback.
       };
     ));
     
     
-** By default your Strategy is built based on those Scopes ['contacts', 'content', 'reports', 'social', 'automation', 'timeline'];
+** By default your Strategy is built based on those Scopes ['contacts'];
 
 ## License
 [The MIT License](http://opensource.org/licenses/MIT)
